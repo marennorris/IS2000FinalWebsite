@@ -1,1 +1,13 @@
 
+ /* Adjusting Nav menu Icon */
+
+ #nav_button {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    
+}
+
+nav{
+    display: none;
+}
