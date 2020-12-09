@@ -1,3 +1,15 @@
+/* Colors I've been using-
+for darker elements like hover:  #343A40
+for normal greys: #495057
+for background/text color against greys: #E9ECEF
+*/
+
+/* General Background color */
+body{
+    background-color: #E9ECEF;
+    
+}
+
 /* Header css */
 header{
     text-align: center;
@@ -9,7 +21,7 @@ nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color:#495057;
 }
 
 nav li{
@@ -18,35 +30,37 @@ nav li{
 
 nav li a{
     display: block;
-    color: white;
+    color: #E9ECEF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover{
-    background-color: dimgray;
+    background-color: #343A40;
 }
 
 main{
     margin: 1%;
+    text-align: center;
 }
 
 /* Card css for the overview pages */
 .card{
     display: inline-block;
-    max-width: 300px;
-    margin: auto;
-    padding: 10%;
+    max-width: 30%;
+    margin: 2%;
+    padding: 0%;
     text-align: center;
+    border: 1px solid black;
 }
 
 .card button{
     border: none;
     display: inline-block;
     padding: 2%;
-    color: white;
-    background-color: dimgray;
+    color: #E9ECEF;
+    background-color: #343A40;
     text-align: center;
     width: 100%;
     font-size: 18px;
@@ -54,12 +68,12 @@ main{
 
 /* Footer css */
 footer{
-    background-color: gray;
-    color: white;
+    background-color:  #495057;
+    color: #E9ECEF;
     padding: 1%;
     text-align: center;
 }
 
 footer a{
-    color: white;
+    color: #E9ECEF;
 }
