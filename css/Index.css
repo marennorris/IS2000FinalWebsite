@@ -1,0 +1,35 @@
+/* Bo's jank ass css */
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    height: 100%;
+	overflow: hidden;
+}
+
+.Box{
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+.Top{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.Diagonal{
+	height: 100%;
+	width: 100%;
+}
+.Bottom{
+	transform: skewX(-63deg);
+	margin-left: 950px;
+	background: linear-gradient(45deg,#525252, #ffffff);
+}
+
+.Bottom h1{
+	padding-top: 100px;
+	transform: skewX(64deg);
+}
