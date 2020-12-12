@@ -25,11 +25,29 @@ html, body {
 }
 .Bottom{
 	transform: skewX(-63deg);
-	margin-left: 950px;
-	background: linear-gradient(45deg,#525252, #ffffff);
+	margin-left: 1350px;
+	padding-top: 650px;
+	background-color: black;
 }
 
+.Red{
+	background-color: red;
+}
+.Blue{
+	background-color: blue;
+}
 .Bottom h1{
-	padding-top: 100px;
-	transform: skewX(64deg);
+	margin-left: 0;
+	padding-top: 600px;
+	text-align: left;
+	transform: skewX(63deg);
+	color: white;
+}
+.Bottom h2{
+
+
+	padding-bottom: 50px;
+	padding-left: 70px;
+	transform: skewX(63deg);
+	color: white;
 }
